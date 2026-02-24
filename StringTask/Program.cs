@@ -1,4 +1,4 @@
-﻿
+﻿using System.Linq;
 namespace StringTask
 {
     internal class Program
@@ -7,16 +7,21 @@ namespace StringTask
         {
             Console.WriteLine("Введите строку:");
             string sentence = Console.ReadLine();
+            sentence = sentence.Replace(" ", "");
             char[] alphabetSentence = new char[15];
             int[] alphabetcounter = new int[15];
             for (int i = 0; i < sentence.Length; i++)
             {
                 alphabetSentence[i] = sentence[i];
             }
-            for (int i = 0; i < sentence.Length; i++)
+            alphabetSentence = alphabetSentence.Distinct().ToArray();
+            for (int i = 0; i < alphabetSentence.Length; i++)
             {
                 alphabetcounter[i] = sentence.Count(alphabetSentence[i]);
-
+            }
+            for (int i = 0; i < alphabetSentence.Length; i++)
+            {
+                Console.WriteLine(alphabetSentence[i]  + " " + alphabetcounter[i] * 100 / sentence.Length + "%");
             }
 
         }
