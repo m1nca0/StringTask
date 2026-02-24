@@ -16,6 +16,7 @@ namespace StringTask
             for (int i = 0; i < sentence.Length; i++)
             {
                 alphabetcounter[i] = sentence.Count(alphabetSentence[i]);
+
             }
 
         }
