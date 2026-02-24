@@ -16,7 +16,7 @@ namespace StringTask
         }
         public static int[] MakeAlphabetCounter(string sentence, char[] alphabetSentence)
         {
-            int[] alphabetcounter = new int[100];
+            int[] alphabetcounter = new int[alphabetSentence.Length];
             for (int i = 0; i < alphabetSentence.Length; i++)
             {
                 alphabetcounter[i] = sentence.Count(alphabetSentence[i]);
