@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="StringTask/StringTask.csproj" />
+  <Project Path="TestProject1/TestProject1.csproj" Id="ce6af63a-19bb-4fdc-96f4-41287aad058f" />
 </Solution>

@@ -5,13 +5,14 @@ namespace StringTask
     {
         public static char[] MakeAlphabetSentence(string sentence)
         {
+            sentence = sentence.Replace(" ", "");
             char[] alphabetSentence = new char[100];
             for (int i = 0; i < sentence.Length; i++)
             {
                 alphabetSentence[i] = sentence[i];
             }
             alphabetSentence = alphabetSentence.Distinct().ToArray();
-            return alphabetSentence;
+            return alphabetSentence.SkipLast(1).ToArray();
         }
         public static int[] MakeAlphabetCounter(string sentence, char[] alphabetSentence)
         {
@@ -29,7 +30,6 @@ namespace StringTask
         {
             Console.WriteLine("Введите строку:");
             string sentence = Console.ReadLine();
-            sentence = sentence.Replace(" ", "");
             char[] alphabetSentence = Logic.MakeAlphabetSentence(sentence);
             int[] alphabetcounter = Logic.MakeAlphabetCounter(sentence, alphabetSentence);
 
