@@ -1,3 +1,4 @@
+using StringTask;
 namespace TestPtoject;
 
 public class Tests
@@ -8,8 +9,26 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void TestMakeAlphabetSentence()
     {
-        Assert.Pass();
+        string sentence = "hello world";
+
+        char[] alphabetSentence = Logic.MakeAlphabetSentence(sentence);
+
+        char[] compareArray = new char[] { 'h', 'e', 'l', 'o', 'w', 'r', 'd' };
+        Assert.That(compareArray, Is.EqualTo(alphabetSentence));
+    }
+
+    [Test]
+    public void TestMakeAlphabetCounter()
+    {
+        string sentence = "hello world";
+
+        char[] alphabetSentence = Logic.MakeAlphabetSentence(sentence);
+
+        int[] alphabetcounter = Logic.MakeAlphabetCounter(sentence, alphabetSentence);
+
+        int[] compareArray = new int[] { 1, 1, 3, 2, 1, 1, 1 };
+        Assert.That(compareArray, Is.EqualTo(alphabetcounter));
     }
 }
