@@ -6,7 +6,7 @@ namespace StringTask
         public static char[] MakeAlphabetSentence(string sentence)
         {
             sentence = sentence.Replace(" ", "");
-            char[] alphabetSentence = new char[100];
+            char[] alphabetSentence = new char[sentence.Length];
             for (int i = 0; i < sentence.Length; i++)
             {
                 alphabetSentence[i] = sentence[i];
@@ -19,7 +19,7 @@ namespace StringTask
             int[] alphabetcounter = new int[alphabetSentence.Length];
             for (int i = 0; i < alphabetSentence.Length; i++)
             {
-                alphabetcounter[i] = sentence.Count(alphabetSentence[i]);
+                alphabetcounter[i] = sentence.Count(c => c == alphabetSentence[i]) * 100 / sentence.Length;
             }
             return alphabetcounter;
         }
@@ -35,7 +35,7 @@ namespace StringTask
 
             for (int i = 0; i < alphabetSentence.Length; i++)
             {
-                Console.WriteLine(alphabetSentence[i]  + " " + alphabetcounter[i] * 100 / sentence.Length + "%");
+                Console.WriteLine(alphabetSentence[i]  + " " + alphabetcounter[i] + "%");
             }
 
         }
