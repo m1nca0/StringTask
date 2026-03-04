@@ -12,7 +12,7 @@ namespace StringTask
                 alphabetSentence[i] = sentence[i];
             }
             alphabetSentence = alphabetSentence.Distinct().ToArray();
-            return alphabetSentence.SkipLast(1).ToArray();
+            return alphabetSentence;
         }
         public static int[] MakeAlphabetCounter(string sentence, char[] alphabetSentence)
         {

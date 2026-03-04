@@ -9,7 +9,7 @@ public class Tests
     }
 
     [Test]
-    public void TestMakeAlphabetSentence()
+    public void SimpleMakeAlphabetSentenceTest()
     {
         string sentence = "hello world";
 
@@ -20,7 +20,18 @@ public class Tests
     }
 
     [Test]
-    public void TestMakeAlphabetCounter()
+    public void EmptySentenceArray()
+    {
+        string sentence = "";
+
+        char[] alphabetSentence = Logic.MakeAlphabetSentence(sentence);
+
+        char[] compareArray = new char[] { };
+        Assert.That(compareArray, Is.EqualTo(alphabetSentence));
+    }
+
+    [Test]
+    public void MakeAlphabetCounterTest()
     {
         string sentence = "hello world";
 
@@ -28,7 +39,34 @@ public class Tests
 
         int[] alphabetcounter = Logic.MakeAlphabetCounter(sentence, alphabetSentence);
 
-        int[] compareArray = new int[] { 1, 1, 3, 2, 1, 1, 1 };
+        int[] compareArray = new int[] { 9, 9, 27, 18, 9, 9, 9 };
+        Assert.That(compareArray, Is.EqualTo(alphabetcounter));
+    }
+
+    [Test]
+
+    public void MakeNullAlphabetCounterTest()
+    {
+        var sentence = "";
+
+        char[] alphabetSentence = Logic.MakeAlphabetSentence(sentence);
+
+        int[] alphabetcounter = Logic.MakeAlphabetCounter(sentence, alphabetSentence);
+
+        int[] compareArray = new int[] { };
+        Assert.That(compareArray, Is.EqualTo(alphabetcounter));
+    }
+
+    [Test]
+    public void MakeSameLettersAlphabetCounterTest()
+    {
+        var sentence = "wwww";
+
+        char[] alphabetSentence = Logic.MakeAlphabetSentence(sentence);
+
+        int[] alphabetcounter = Logic.MakeAlphabetCounter(sentence, alphabetSentence);
+
+        int[] compareArray = new int[] { 100 };
         Assert.That(compareArray, Is.EqualTo(alphabetcounter));
     }
 }
