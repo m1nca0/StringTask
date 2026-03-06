@@ -39,7 +39,7 @@ public class Tests
 
         int[] alphabetcounter = Logic.MakeAlphabetCounter(sentence, alphabetSentence);
 
-        int[] compareArray = new int[] { 9, 9, 27, 18, 9, 9, 9 };
+        int[] compareArray = new int[] { 10, 10, 30, 20, 10, 10, 10 };
         Assert.That(compareArray, Is.EqualTo(alphabetcounter));
     }
 

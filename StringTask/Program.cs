@@ -19,7 +19,7 @@ namespace StringTask
             int[] alphabetcounter = new int[alphabetSentence.Length];
             for (int i = 0; i < alphabetSentence.Length; i++)
             {
-                alphabetcounter[i] = sentence.Count(c => c == alphabetSentence[i]) * 100 / sentence.Length;
+                alphabetcounter[i] = sentence.Count(c => c == alphabetSentence[i]) * 100 / sentence.Replace(" ", "").Length;
             }
             return alphabetcounter;
         }
