@@ -1,0 +1,17 @@
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.Form1.resources
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.csproj.GenerateResource.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.AssemblyInfoInputs.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.AssemblyInfo.cs
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.csproj.CoreCompileInputs.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.sourcelink.json
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\bin\Debug\net10.0-windows\IfGui.exe
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\bin\Debug\net10.0-windows\IfGui.deps.json
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\bin\Debug\net10.0-windows\IfGui.runtimeconfig.json
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\bin\Debug\net10.0-windows\IfGui.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\bin\Debug\net10.0-windows\IfGui.pdb
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\refint\IfGui.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.pdb
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.genruntimeconfig.cache
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\ref\IfGui.dll
