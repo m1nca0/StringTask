@@ -15,3 +15,4 @@ C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-win
 C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.pdb
 C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\IfGui.genruntimeconfig.cache
 C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\obj\Debug\net10.0-windows\ref\IfGui.dll
+C:\Users\vasilyevmi\Desktop\ВУЗ\tech\guimod\IfGui\IfGui\bin\Debug\net10.0-windows\IfGui.dll.config
